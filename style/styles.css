@@ -167,10 +167,12 @@ footer{
   .navbar, .head-contain{
     flex-direction: column;
   }
+  .head-contain{
+    text-align: center;
+  }
 
   .card{
-    grid-template-columns: repeat(1, 1fr);
-    margin: 0 auto;
+    grid-template-columns: repeat(1, 330px);
   }
 
   .section-bottom{
