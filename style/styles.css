@@ -159,3 +159,21 @@ footer{
   text-decoration: none;
   color: #FFFFFF;
 }
+
+
+/* responsive area */
+
+@media screen and (max-width:576px) {
+  .navbar, .head-contain{
+    flex-direction: column;
+  }
+
+  .card{
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+  }
+
+  .section-bottom{
+    flex-direction: column;
+  }
+}
